@@ -13,6 +13,7 @@ for item in data:
             ind = item.index(tag)
             item=item[ind+len(tag):]
             end=item.index(endtag)
-        except BaseException: pass
+
+        except: pass
         else:
             print item[:end]
