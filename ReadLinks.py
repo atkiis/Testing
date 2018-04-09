@@ -19,6 +19,6 @@ for item in data:
 
         except: pass
         else:
-            i=i+1
+            i+=1
             print (i)
             print item[:end]
