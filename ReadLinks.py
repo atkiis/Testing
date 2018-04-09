@@ -11,8 +11,8 @@ for item in data:
     if "<a href" in item:
         try:
             ind = item.index(tag)
-            item=item[ind+len(tag):]
-            end=item.index(endtag)
+            item = item[ind+len(tag):]
+            end = item.index(endtag)
 
         except: pass
         else:
