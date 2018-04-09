@@ -20,5 +20,4 @@ for item in data:
         except: pass
         else:
             i+=1
-            print (i)
-            print item[:end]
+            print i, item[:end]
